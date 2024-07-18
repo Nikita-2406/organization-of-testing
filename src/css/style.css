@@ -1,0 +1,51 @@
+.list_card_image {
+    list-style-type: none;
+    
+}
+li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+
+img {
+    width: 100px;
+    /* height: 70px; */
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    box-sizing: border-box;
+    /* height: 39px; */
+    padding: 10px;
+    margin:  0 0 0 10px;
+    background-color: rgb(92, 241, 92);
+    color: black;
+    border: 2px solid grey;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.entry_field {
+    width: 300px;
+    height: 33px;
+    border: 2px solid grey;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: auto;
+    text-align: center;
+}
+
+.hidden {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: 90px;
+    height: 63px;
+    top: -85px;
+    right: -5px;
+    border-radius: 10px;
+}
